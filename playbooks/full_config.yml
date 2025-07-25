@@ -84,7 +84,7 @@
 
     # List of NAT rules to create.
     inbound_nat_rules:
-      - rule_name: 'Web SSH'
+      - rule_name: 'Web SSH-NAT' 
         source_zone: ['untrust']
         source_ip: ['any']
         destination_zone: 'untrust'
